@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vigneshprabhu Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="profile-pic-container">
+        <img src="static/images/pic2.jpg" alt="Vigneshprabhu" class="profile-pic">
+    </div>
+    <header>
+        <video autoplay muted loop playsinline id="bg-video">
+            <source src="static/front.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h1 id="name-header">Vigneshprabhu M</h1>
+        <p id="quali">Applied Tech Learner</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Highly motivated and curious learner who thrives on solving problems and exploring new technologies. I have strong communication skills and enjoy working collaboratively in teams to turn ideas into reality. Adaptability and resilience are key strengths I bring to every challenge, along with a detail-oriented mindset and a strong sense of responsibility. I’m passionate about continuous growth, open to feedback, and always eager to learn from others while contributing meaningfully to any project or environment I’m part of.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="edu-entry">
+            <h4>B.E. in Electronics and Communication Engineering (2022 – 2025)</h4>
+            <p>Anna University - MIT Campus, Chennai</p>
+            <p>CGPA: 7.69</p>
+            <hr>
+        </div>
+        <div class="edu-entry">
+            <h4>Diploma in Electrical and Electronics Engineering (2019 – 2022)</h4>
+            <p>Nachimuthu Polytechnic College, Pollachi</p>
+            <p>Percentage: 93.14</p>
+            <hr>
+        </div>
+        <div class="edu-entry">
+            <h4>SSLC (2018 – 2019)</h4>
+            <p>Vivek Vidyalaya Matric Higher Secondary School, Coimbatore</p>
+            <p>Percentage: 83.40</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Flask</li>
+            <li>React JS</li>
+            <li>AWS</li>
+            <li>GCP</li>
+            <li>MySQL</li>
+            <li>Firebase</li>
+            <li>HTML/CSS</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <h3>Deepfake Detection using Modified Vision Transformer</h3>
+            <p>Developed a robust deepfake detection system using a customized Vision Transformer (ViT) architecture enhanced with Global Attention Module (GAM), Local Attention Module (LAM), and Feature Aggregation Layer (FAL). These custom blocks improved the model's ability to capture both global context and subtle local inconsistencies in manipulated facial regions. Trained on publicly available deepfake datasets, the model achieved high accuracy in distinguishing real vs. fake videos, demonstrating strong generalization to unseen manipulations.</p>
+            <div class="project-gallery">
+                <img src="static/images/project1/sample1.png" alt="Deepfake Detection Output 1" class="gallery-img">            
+                <img src="static/images/project1/sample2.png" alt="Deepfake Detection Output 2" class="gallery-img">           
+            </div>
+        </div>
+        <div class="projects">
+            <h3>Weed Detection using YOLOv8 + BiFPN</h3>
+            <p>Developed an object detection system to accurately identify and localize weeds in agricultural crop images using YOLOv8, integrated with a Bi-directional Feature Pyramid Network (BiFPN) for enhanced multi-scale feature fusion. The system improves detection precision in complex field environments by leveraging both low-level and high-level spatial information. Trained on a labeled agricultural dataset, the model enables early and efficient weed detection, supporting precision farming and reducing the need for manual intervention or excessive pesticide use.</p>
+            <div class="project-gallery">
+                <img src="static/images/project2/sample1.jpg" alt="Weed Detection Output 1" class="gallery-img">
+                <img src="static/images/project2/sample2.jpg" alt="Weed Detection Output 2" class="gallery-img">
+                <img src="static/images/project2/sample3.jpg" alt="Weed Detection Output 3" class="gallery-img">
+            </div>
+        </div>
+        <div class="projects">
+            <h3>Face Recognition with OpenCV</h3>
+            <p>Created a real-time attendance system using OpenCV and Haar cascades, enabling automated face detection, recognition, and logging with timestamps. Attendance data was securely stored in a structured CSV file for easy tracking and analysis.</p>
+            <div class="project-gallery">
+            <img src="static/images/project3/sample1.jpg" alt="Face Recognition Output 1" class="gallery-img">
+            <img src="static/images/project3/sample2.jpg" alt="Face Recognition Output 2" class="gallery-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Details</h2>
+        <p>Email: <a href="mailto:vigneshprabhuvp44@gmail.com">vigneshprabhuvp44@gmail.com</a></p>
+        <p>
+        Phone: +91-7868905920
+        <a href="https://wa.me/917868905920" target="_blank" title="Chat on WhatsApp" style="margin-left:10px;">
+            <img src="static/images/whatsapp.jpg" alt="WhatsApp" style="width:20px; vertical-align:middle;">
+        </a>
+        </p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/vigneshprabhum/" target="_blank">linkedin.com/in/vigneshprabhum/</a></p>
+        <p>Leetcode Profile: <a href="https://leetcode.com/u/vigneshprabhuvp44/" target="_blank">leetcode.com/u/vigneshprabhuvp44/</a></p>
+        <p>GitHub: <a href="https://github.com/vignesh-in04" target="_blank">github.com/vignesh-in04</a></p>
+        <p>Developer Profile: <a href="https://g.dev/vigneshprabhu-dev" target="_blank">g.dev/vigneshprabhu-dev</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vigneshprabhu M</p>
+    </footer>
+    <div id="img-modal" class="img-modal">
+    <span class="img-modal-close" id="img-modal-close">&times;</span>
+    <img class="img-modal-content" id="img-modal-full">
+</div>
+
+<script>
+    // Video speed
+    window.onload = function() {
+        var vid = document.getElementById('bg-video');
+        if (vid) vid.playbackRate = 2;
+    };
+
+    // Image animation on scroll
+    document.addEventListener("DOMContentLoaded", function() {
+        const imgs = document.querySelectorAll('.gallery-img');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.2 });
+        imgs.forEach(img => observer.observe(img));
+
+        // Modal logic
+        const modal = document.getElementById('img-modal');
+        const modalImg = document.getElementById('img-modal-full');
+        const modalClose = document.getElementById('img-modal-close');
+        imgs.forEach(img => {
+            img.addEventListener('click', function() {
+                modal.style.display = 'flex';
+                modalImg.src = this.src;
+                modalImg.alt = this.alt;
+            });
+        });
+        modalClose.onclick = function() {
+            modal.style.display = 'none';
+            modalImg.src = '';
+        };
+        modal.onclick = function(e) {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+                modalImg.src = '';
+            }
+        };
+    });
+</script>
+</body>
+</html>
